@@ -60,7 +60,9 @@ By default you have access to the `public_profile` permission that includes info
 
 ## Test the Code
 
-First, obtain a valid Facebook token with the small app in `login.html` as mentioned above.
+First, add a new field called `facebookUserId` to your User type in the Schema.
+
+Second, obtain a valid Facebook token with the small app in `login.html` as mentioned above.
 
 Go to the Graphcool Playground:
 
